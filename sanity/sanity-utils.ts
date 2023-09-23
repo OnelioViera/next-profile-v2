@@ -5,7 +5,7 @@ export async function getProjects(): Promise<Project[]> {
   const client = createClient({
     projectId: '4fvu8wtf',
     dataset: 'production',
-    apiVersion: '2021-06-08',
+    apiVersion: '2021-06-09',
   });
 
   return client.fetch(
